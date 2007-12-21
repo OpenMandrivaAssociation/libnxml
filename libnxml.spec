@@ -12,6 +12,7 @@ Source0:	http://www.monkey.org/~provos/%{name}-%{version}.tar.bz2
 #Patch0:		libnxml-0.8-lib64.diff
 BuildRequires:	curl-devel
 BuildRequires:	openssl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 nXML is a C library for parsing, writing and creating XML 1.0 and
