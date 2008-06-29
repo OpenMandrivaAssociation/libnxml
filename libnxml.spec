@@ -3,13 +3,12 @@
 
 Summary:	A C library for parsing, writing and creating XML 1.0 and 1.1 files or streams
 Name:		libnxml
-Version:	0.18.1
+Version:	0.18.2
 Release:	%mkrel 1
 Group:		System/Libraries
-License:	LGPL
+License:	LGPLv2
 URL:		http://autistici.org/bakunin/codes.php
-Source0:	http://www.monkey.org/~provos/%{name}-%{version}.tar.bz2
-#Patch0:		libnxml-0.8-lib64.diff
+Source0:	http://www.autistici.org/bakunin/libnxml/%{name}-%{version}.tar.gz
 BuildRequires:	curl-devel
 BuildRequires:	openssl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
@@ -46,7 +45,6 @@ files.
 %prep
 
 %setup -q -n %{name}-%{version}
-#%patch0 -p0
 
 %build
 
