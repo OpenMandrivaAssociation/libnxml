@@ -5,7 +5,7 @@
 Summary:	A C library for parsing, writing and creating XML 1.0 and 1.1 files or streams
 Name:		libnxml
 Version:	0.18.3
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		System/Libraries
 License:	LGPLv2+
 URL:		http://autistici.org/bakunin/codes.php
