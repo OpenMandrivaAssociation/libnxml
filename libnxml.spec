@@ -8,7 +8,7 @@ Version:	0.18.3
 Release:	6
 Group:		System/Libraries
 License:	LGPLv2+
-URL:		http://autistici.org/bakunin/codes.php
+URL:		https://autistici.org/bakunin/codes.php
 Source0:	http://www.autistici.org/bakunin/libnxml/%{name}-%{version}.tar.gz
 BuildRequires:	curl-devel
 BuildRequires:	openssl-devel
